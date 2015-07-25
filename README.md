@@ -1,4 +1,8 @@
 # README FILE#
+========================================================
+Author : Nachiappan Chockalingam
+This code is designed as a part of coursera course Getting and Cleaning Data
+========================================================
 
 1. Download the data from the course project webpage and extract the compressed folder.
 2. Place the course_project.R code into the extracted folder
