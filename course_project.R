@@ -36,3 +36,5 @@ grouped_data <- group_by(complete_data,Subject,Activity)
 
 #Form the tidy data set
 tidy_data <- summarise_each(grouped_data,funs(mean))
+# Export the tidy data set to a .txt file
+write.table(tidy_data,file ="tidy_data.txt",row.names = FALSE)
